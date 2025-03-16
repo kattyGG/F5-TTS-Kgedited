@@ -15,6 +15,8 @@ set HTTPS_PROXY=
 
 cmd 执行  f5-tts_infer-gradio    放在pyproject.toml中的，运行后自动下载model
 
+然后回自动下载 opanai的 一个model ，如果下载失败可以 去 hf 直接下载，放入下面目录
+C:\Users\cc\.cache\huggingface\hub\models--openai--whisper-large-v3-turbo\blobs
 
 
 # F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching
