@@ -1,3 +1,16 @@
+使用 install-cuda.bat 安装
+ torch==2.4.1 
+
+ 然后
+set HTTP_PROXY=http://127.0.0.1:11301
+set HTTPS_PROXY=http://127.0.0.1:11301
+
+pip install --proxy http://127.0.0.1:11301 e .
+
+f5-tts_infer-gradio    放在pyproject.toml中的
+
+
+
 # F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching
 
 [![python](https://img.shields.io/badge/Python-3.10-brightgreen)](https://github.com/SWivid/F5-TTS)
