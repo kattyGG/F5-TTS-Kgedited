@@ -7,7 +7,7 @@ set HTTPS_PROXY=http://127.0.0.1:11301
 
 pip install --proxy http://127.0.0.1:11301 e .
 
-cmd 执行  f5-tts_infer-gradio    放在pyproject.toml中的
+cmd 执行  f5-tts_infer-gradio    放在pyproject.toml中的，运行后自动下载model
 
 
 
