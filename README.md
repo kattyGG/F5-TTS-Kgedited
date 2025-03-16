@@ -1,6 +1,8 @@
 使用 install-cuda.bat 安装
  torch==2.4.1 
 
+激活虚拟venv，查看cuda是否安装正确 activate_env_v2_check_cuda.bat
+
  然后
 set HTTP_PROXY=http://127.0.0.1:11301
 set HTTPS_PROXY=http://127.0.0.1:11301
