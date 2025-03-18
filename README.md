@@ -19,6 +19,8 @@ cmd 执行  f5-tts_infer-gradio    放在pyproject.toml中的，运行后自动�
 C:\Users\cc\.cache\huggingface\hub\models--openai--whisper-large-v3-turbo\blobs
 实际是不行的，要改代码。还是自动下载方便
 
+使用感受是很好，目前开源最高水平了，随便音频都能出音频，特别的声音用用T5 ，E2只能普通类型的但是模仿很好。 小孩音无法实现。估计源数据没联系。
+
 
 # F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching
 
