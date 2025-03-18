@@ -1,9 +1,15 @@
-使用 install-cuda.bat 安装
+使用
+ ```sh
+install-cuda.bat 安装
+ ```
  torch==2.4.1 
 
-激活虚拟venv，查看cuda是否安装正确 activate_env_v2_check_cuda.bat
-
+激活虚拟venv，查看cuda是否安装正确 
+ ```sh
+activate_env_v2_check_cuda.bat
+ ```
  然后
+ ```sh
 set HTTP_PROXY=http://127.0.0.1:11301
 set HTTPS_PROXY=http://127.0.0.1:11301
 
@@ -11,15 +17,20 @@ pip install --proxy http://127.0.0.1:11301 e .
 
 set HTTP_PROXY=
 set HTTPS_PROXY=
+ ```
 要取消，不然可能导致 出错。
 
-cmd 执行  f5-tts_infer-gradio    放在pyproject.toml中的，运行后自动下载model
+cmd 执行  
+ ```sh
+f5-tts_infer-gradio    
+ ```
+放在pyproject.toml中的，运行后自动下载model
 
 在生成语音的时候会  然后自动下载 opanai的 一个model ，如果下载失败可以 去 hf 直接下载，放入下面目录
 C:\Users\cc\.cache\huggingface\hub\models--openai--whisper-large-v3-turbo\blobs
 实际是不行的，要改代码。还是自动下载方便
 
-使用感受是很好，目前开源最高水平了，随便音频都能出音频，特别的声音用用T5 ，E2只能普通类型的但是模仿很好。 小孩音无法实现。估计源数据没联系。
+### 使用感受是很好，目前开源最高水平了，随便音频都能出音频，特别的声音用用T5 ，E2只能普通类型的但是模仿很好。 小孩音无法实现。估计源数据没联系。
 
 
 # F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching
