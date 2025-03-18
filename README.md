@@ -1,8 +1,8 @@
 使用
  ```sh
-install-cuda.bat 安装
+install-cuda.bat 
  ```
- torch==2.4.1 
+ 安装torch==2.4.1 
 
 激活虚拟venv，查看cuda是否安装正确 
  ```sh
