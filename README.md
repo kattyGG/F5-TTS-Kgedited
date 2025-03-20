@@ -1,16 +1,15 @@
+# 安装
 
-用了 http://127.0.0.1:11301 这个代理去安装。
-使用
  ```sh
-install-cuda.bat 
+install-cuda.bat   #自制安装脚本-用了 http://127.0.0.1:11301  代理，适合国情 。
  ```
- 安装torch==2.4.1 
+安装torch==2.4.1 
 
 激活虚拟venv，查看cuda是否安装正确 
  ```sh
-activate_env_v2_check_cuda.bat
+activate_env_v2_check_cuda.bat #自定义启动脚本
  ```
- 然后
+ 然后使用代理，根据情况修改端口
  ```sh
 set HTTP_PROXY=http://127.0.0.1:11301
 set HTTPS_PROXY=http://127.0.0.1:11301
@@ -21,6 +20,8 @@ set HTTP_PROXY=
 set HTTPS_PROXY=
  ```
 要取消，不然可能导致 出错。
+
+这里还需要安装pyproject.toml中依赖
 
 cmd 执行  
  ```sh
